@@ -1,0 +1,7 @@
+CREATE TABLE `teacher` (
+	`ID` VARCHAR(10) COMMENT 'サンプルデータ：admin',
+	`PASSWORD` VARCHAR(30) DEFAULT NULL COMMENT 'サンプルデータ：password',
+	`NAME` VARCHAR(10) DEFAULT NULL COMMENT 'サンプルデータ：大原花子',
+	`SCHOOL_CD` CHAR(3) DEFAULT NULL COMMENT 'サンプルデータ：oom',
+	PRIMARY KEY (`ID`)
+) ENGINE=InnoDB;

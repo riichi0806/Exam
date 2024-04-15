@@ -1,0 +1,6 @@
+CREATE TABLE `subject` (
+	`SCHOOL_CD` CHAR(3) COMMENT 'サンプルデータ：oom',
+	`CD` CHAR(2) COMMENT 'サンプルデータ：AO2',
+	`NAME` VARCHAR(20) DEFAULT NULL COMMENT 'サンプルデータ：国語',
+	PRIMARY KEY (`SCHOOL_CD`,`CD`)
+) ENGINE=InnoDB;
